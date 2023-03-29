@@ -1,10 +1,10 @@
 /*
 Example of KNN
 
-The input includes the given data (n pairs of (x,y) points) and then the queries for wanted data (x of the wanted answer or "exit" command).
+The input includes the training data (n data points consisting of {x, y, category}) and then the queries for wanted data (x and y of the wanted answer).
 
 Input format:
-    //Given data
+    //Training data
     [n]
     [X1] [Y1][category]
     [X2] [Y2][category]
@@ -16,14 +16,12 @@ Input format:
     [X][Y]
 
 by Sznupek
-
-https://scipy-lectures.org/_images/sphx_glr_plot_iris_scatter_001.png
 */
 
 #include <iostream>
 #include <bits/stdc++.h>
 
-#define MAX_N 1000000
+#define MAX_N 1000001
 #define f first
 #define s second
 
