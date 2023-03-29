@@ -1,5 +1,5 @@
 # K-Nearest Neighbors
-This is my take on the KNN algorithm. It's a really simple implementation for 2D data.
+This is my implementation of the KNN algorithm for 2D data.
 
 ## Input
 The input template:
